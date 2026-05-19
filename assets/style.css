@@ -131,6 +131,15 @@ body {
     padding-left: 1.25rem;
 }
 
+.policy ul a {
+    color: var(--link);
+    text-decoration: none;
+}
+
+.policy ul a:hover {
+    text-decoration: underline;
+}
+
 .policy .placeholder {
     background: #fff3cd;
     padding: 0.05em 0.25em;
