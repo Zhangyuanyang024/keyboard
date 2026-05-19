@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>逐字键盘 · 隐私与支持</title>
+    <meta name="description" content="逐字键盘 — 隐私政策" />
+    <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrap">
+            <h1 class="title">逐字键盘</h1>
+            <p class="tagline">隐私与支持信息</p>
+        </div>
+    </header>
+    <main class="wrap main">
+        <section class="card">
+            <h2>文档</h2>
+            <ul class="links">
+                <li><a href="privacy.html">隐私政策</a></li>
+            </ul>
+            <p class="hint">部署到你的 HTTPS 域名后，将「隐私政策」页的完整地址填入 App Store Connect。</p>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="wrap">
+            <small>© <span id="year"></span> <span class="placeholder">【请填写运营者名称】</span></small>
+        </div>
+    </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
