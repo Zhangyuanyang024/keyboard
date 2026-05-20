@@ -131,13 +131,31 @@ body {
     padding-left: 1.25rem;
 }
 
-.policy ul a {
+.policy ul a,
+.policy p a {
     color: var(--link);
     text-decoration: none;
 }
 
-.policy ul a:hover {
+.policy ul a:hover,
+.policy p a:hover {
     text-decoration: underline;
+}
+
+.support-ol {
+    margin: 0.5rem 0 0.5rem 0;
+    padding-left: 1.35rem;
+}
+
+.support-ol li {
+    margin: 0.35rem 0;
+}
+
+.faq-q {
+    margin: 1.25rem 0 0.35rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
 }
 
 .policy .placeholder {
